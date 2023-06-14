@@ -2,6 +2,7 @@ import Link from "next/link";
 import AboutPage from "@/components/Page/AboutPage";
 import ProjectsPage from "@/components/Page/ProjectsPage";
 import ExperiencePage from "@/components/Page/ExperiencePage";
+import ContactPage from "@/components/Page/ContactPage";
 
 export default function Home() {
   return (
@@ -35,10 +36,9 @@ export default function Home() {
           <AboutPage />
           <ProjectsPage />
           <ExperiencePage />
+          <ContactPage />
         </div>
       </div>
-
-      <div className="min-h-screen bg-yellow-400 sds">sd</div>
     </>
   );
 }
