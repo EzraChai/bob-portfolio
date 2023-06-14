@@ -1,5 +1,6 @@
 import Links from "./Links";
 import { AiFillCode } from "react-icons/ai";
+import SectionHeader from "@/components/SectionHeader";
 
 const techStackAtWork = [
   "JavaScript",
@@ -32,12 +33,7 @@ const techStackForFun = [
 export default function AboutPage() {
   return (
     <div className="pb-12">
-      <div className="flex items-center justify-between">
-        <div className="pr-4 text-6xl font-black">
-          About<span className="text-lime-500">.</span>
-        </div>
-        <div className="w-full h-px rounded-md bg-lime-500" />
-      </div>
+      <SectionHeader name={"About"} direction="l" />
       <div className="grid grid-cols-8 gap-4">
         <div className="col-span-5 mt-4">
           <p className="text-lg text-neutral-300">

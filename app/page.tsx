@@ -5,7 +5,7 @@ import ProjectsPage from "@/components/ProjectsPage";
 export default function Home() {
   return (
     <>
-      <div className="min-h-screen max-w-4xl mx-auto bg-[#111] ">
+      <div className="min-h-screen max-w-2xl lg:max-w-4xl mx-auto bg-[#111] ">
         <div className="pt-60 ">
           <h1 className="font-black -tracking-wide text-8xl">
             Hey I'm Ezra<span className="text-lime-400">.</span>
