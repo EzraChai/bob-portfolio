@@ -1,6 +1,7 @@
 import Link from "next/link";
-import AboutPage from "@/components/AboutPage";
-import ProjectsPage from "@/components/ProjectsPage";
+import AboutPage from "@/components/Page/AboutPage";
+import ProjectsPage from "@/components/Page/ProjectsPage";
+import ExperiencePage from "@/components/Page/ExperiencePage";
 
 export default function Home() {
   return (
@@ -33,6 +34,7 @@ export default function Home() {
         <div className=" mt-96 max-w-4xl mx-auto bg-[#111]">
           <AboutPage />
           <ProjectsPage />
+          <ExperiencePage />
         </div>
       </div>
 

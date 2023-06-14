@@ -30,7 +30,7 @@ export default function ProjectModal({
       <div className="p-6">
         <div className="text-4xl font-extrabold">{title}</div>
         <TechDisplay tech={tech} />
-        <div className="mt-4">{modalContent}</div>
+        <div className="mt-4 text-neutral-200">{modalContent}</div>
         <div className="">
           <div className="mt-8 text-2xl font-extrabold">
             Projects Links<span className="text-lime-500">.</span>

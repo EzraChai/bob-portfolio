@@ -1,4 +1,4 @@
-import Links from "./Links";
+import Links from "../Links";
 import { AiFillCode } from "react-icons/ai";
 import SectionHeader from "@/components/SectionHeader";
 
@@ -62,16 +62,16 @@ export default function AboutPage() {
             <AiFillCode className="text-lime-500" /> Use At Work
           </div>
           <div className="flex flex-wrap gap-2 mt-2">
-            {techStackAtWork.map((tech) => (
-              <Label name={tech} />
+            {techStackAtWork.map((tech, index) => (
+              <Label key={index} name={tech} />
             ))}
           </div>
           <div className="flex items-center gap-2 mt-10 text-2xl font-black text-white">
             <AiFillCode className="text-lime-500" /> Use For Fun
           </div>
           <div className="flex flex-wrap gap-2 mt-2">
-            {techStackForFun.map((tech) => (
-              <Label name={tech} />
+            {techStackForFun.map((tech, index) => (
+              <Label key={index} name={tech} />
             ))}
           </div>
         </div>

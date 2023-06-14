@@ -47,7 +47,7 @@ export default function Project(props: ProjectProps) {
           </div>
         </div>
         <TechDisplay tech={props.tech} />
-        <div className="mt-2">
+        <div className="mt-2 text-neutral-300">
           <p>{props.description}</p>
         </div>
       </div>
