@@ -47,8 +47,8 @@ export default function AboutPage() {
             you&apos;ll find me scribbling some happy clouds with my son ☁️ I
             even teach courses online if you&apos;re looking to learn! I&apos;m
             passively looking for new positions where I can merge my love for
-            code with my love for the canvas. If you think you've got an opening
-            that I might like, let&apos;s connect 🔗
+            code with my love for the canvas. If you think you&apos;ve got an
+            opening that I might like, let&apos;s connect 🔗
           </p>
           <div className="flex items-center gap-4 mt-4 text-lime-500">
             <div className="text-lg font-bold text-lime-500">
