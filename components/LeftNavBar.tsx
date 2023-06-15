@@ -12,6 +12,7 @@ export default function LeftNavBar() {
       <ul className="flex items-center gap-6 mt-10 rotate-90 select-none">
         <li>
           <Link
+            scroll={false}
             className=" text-neutral-300 hover:text-white px-2 py-4 transition border-t-2 border-transparent cursor-pointer hover:bg-[#080808] hover:border-lime-400"
             href={"#About"}
           >
@@ -20,6 +21,7 @@ export default function LeftNavBar() {
         </li>
         <li>
           <Link
+            scroll={false}
             className="text-neutral-300 hover:text-white px-2 py-4 transition border-t-2 border-transparent cursor-pointer hover:bg-[#080808] hover:border-lime-400"
             href={"#Projects"}
           >
@@ -28,6 +30,7 @@ export default function LeftNavBar() {
         </li>
         <li>
           <Link
+            scroll={false}
             className="text-neutral-300 hover:text-white px-2 py-4 transition border-t-2 border-transparent cursor-pointer hover:bg-[#080808] hover:border-lime-400"
             href={"#Exp."}
           >
@@ -36,6 +39,7 @@ export default function LeftNavBar() {
         </li>
         <li>
           <Link
+            scroll={false}
             className="text-neutral-300 hover:text-white px-2 py-4 transition border-t-2 border-transparent cursor-pointer hover:bg-[#080808] hover:border-lime-400"
             href={"#Contact"}
           >

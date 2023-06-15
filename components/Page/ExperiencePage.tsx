@@ -6,8 +6,8 @@ export default function ExperiencePage() {
     <section className="mt-48" id="Exp.">
       <SectionHeader name="Experience" direction="l" />
       <div className="">
-        {experiences.map((experience) => (
-          <Experience {...experience} />
+        {experiences.map((experience, index) => (
+          <Experience key={index} {...experience} />
         ))}
       </div>
     </section>

@@ -1,8 +1,4 @@
-import {
-  DialogContent,
-  DialogDescription,
-  DialogHeader,
-} from "@/components/ui/dialog";
+import { DialogContent } from "@/components/ui/dialog";
 import type { ProjectProps } from "@/components/Project";
 import Image from "next/image";
 import TechDisplay from "@/components/TechDisplay";
@@ -13,7 +9,6 @@ export default function ProjectModal({
   title,
   imgSrc,
   code,
-  projectLink,
   tech,
   modalContent,
 }: ProjectProps) {
